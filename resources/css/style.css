@@ -9,13 +9,22 @@ p {
 }
 
 header {
-  background-image: url('/recources/images/the-flatiron-building.jpg');
+  background-image: url('../images/the-flatiron-building.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 3rem 4rem;
+  padding: 2rem;
 }
 
 header h1 {
   font-size: 70px;
   font-weight: bold;
   color: white;
+}
+
+header nav li {
+  padding: 10px;
 }
 
 header nav li a {
@@ -25,4 +34,38 @@ header nav li a {
 
 header nav ul {
   list-style-type: none;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+h2.design {
+  background-image: url('../images/the-flatiron-building.jpg');
+  color: white;
+}
+
+footer {
+  text-align: left;
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+}
+
+footer nav ul {
+  list-style-type: none;
+}
+
+footer nav ul li {
+  display: inline-block;
+}
+
+footer nav ul li a {
+  color: white;
 }
