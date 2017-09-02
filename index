@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link href="./resources/css/style.css" text="style/css" rel="stylesheet">
+    <link href="/resources/css/style.css" text="style/css" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -20,17 +20,17 @@
     </header>
     <h2>Our Process</h2>
     <div>
-      <img src="./resources/images/identify.svg" />
+      <img src="/resources/images/" />
       <h3>Identify</h3>
       <p>We focus on the most important details.</p>
     </div>
     <div>
-      <img src="./resources/images/understand.svg" />
+      <img src="/resources/images/" />
       <h3>Understand</h3>
       <p>We study our projects inside and out.</p>
     </div>
     <div>
-      <img src="./resources/images/execute.svg" />
+      <img src="/recources/images/" />
       <h3>Execute</h3>
       <p>We put everything we have into our work.</p>
     </div>
